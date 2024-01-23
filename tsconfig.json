@@ -1,0 +1,17 @@
+{
+  "include": ["./src"],
+  "compilerOptions": {
+    "outDir": "./lib",
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "sourceMap": true,
+    "lib": ["es6"]
+  }
+}
